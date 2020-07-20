@@ -1,16 +1,3 @@
-// const express = require('express');
-// const PORT = 3500;
-
-// const app = express();
-
-// app.use('/graphql', (req, res) => {
-//     res.send('Welcome to our authors app');
-// });
-
-// app.listen(PORT, ()=>{
-//     console.log('Server running on port:', PORT);
-// });
-
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 
